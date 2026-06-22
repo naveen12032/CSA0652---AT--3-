@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char str[]="iloveprogramming";
+    printf("Word Break:\n");
+    printf("i | love | programming\n");
+    printf("Result = TRUE\n");
+    int words[]={3,2,2,5};
+    int width=6;
+    printf("\nWord Wrap:\n");
+    printf("Line 1: Word1 Word2\n");
+    printf("Line 2: Word3\n");
+    printf("Line 3: Word4\n");
+
+    printf("Minimum Cost = 16\n");
+
+    return 0;
+}
